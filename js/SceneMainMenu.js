@@ -1,7 +1,7 @@
 class SceneMainMenu extends Phaser.Scene {
     constructor() {
         super({ key: 'SceneMainMenu' });
-    }
+    } //
 
     preload() {
         this.load.image('sprBtnPlay', 'content/sprBtnPlay.png');
